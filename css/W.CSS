@@ -169,9 +169,13 @@ main button:hover {
 
 #media {
     background-color: var(--bgprimary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .retro {
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -278,7 +282,7 @@ main button:hover {
     }
 
     .retro {
-        width: 100%;
+        width: 80%;
         flex-direction: column;
 
         justify-content: flex-start;
@@ -310,6 +314,12 @@ main button:hover {
 .next{
     width: 98%;
 
+}
+.retro{
+  width: 98%;
+}
+.box{
+    width: 98%;
 }
 .webp{
     width: 100%;
