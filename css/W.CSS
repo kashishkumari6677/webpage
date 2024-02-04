@@ -42,7 +42,11 @@ nav {
     font-family: 'DM Serif Display', serif;
     font-size: 50px;
 }
-
+.menuContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 .menu {
     display: flex;
     align-items: center;
@@ -100,7 +104,9 @@ main {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
 }
-
+.box div{
+    border-bottom: 1px solid var(--bgprimary);
+}
 .box h1 {
     color: rgb(237, 188, 42);
     width: 100%;
@@ -204,7 +210,9 @@ main button:hover {
     .menuicon {
         display: inline;
     }
-
+    .menuContainer{
+        flex-direction: row-reverse;
+    }
     .menu {
         width: 30%;
         position: absolute;
@@ -223,6 +231,9 @@ main button:hover {
     .close {
         width: 30px;
         margin-left: 80px;
+    }
+    .dark_toggle{
+        filter: invert();
     }
 
     .show {
@@ -269,6 +280,7 @@ main button:hover {
         flex-direction: column;
         justify-content: flex-start;
         gap: none;
+        padding: 20px;
     }
 
     .pic {
@@ -290,4 +302,16 @@ main button:hover {
         border: none;
         width: 50%;
     }
+}
+@media only screen and (max-width:500px) {
+.next{
+    width: 98%;
+
+}
+.webp{
+    width: 100%;
+}
+.webp h1 {
+    width: 100%;
+}
 }
