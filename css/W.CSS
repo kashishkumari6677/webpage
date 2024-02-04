@@ -107,6 +107,10 @@ main {
 .box div{
     border-bottom: 1px solid var(--bgprimary);
 }
+.box div:nth-child(4){
+    border-bottom: none;
+
+}
 .box h1 {
     color: rgb(237, 188, 42);
     width: 100%;
@@ -267,7 +271,7 @@ main button:hover {
     }
 
     .box {
-        width: 100%;
+        width: 80%;
         height: auto;
         justify-content: flex-start;
         flex-direction: column;
