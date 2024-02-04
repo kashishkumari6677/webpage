@@ -95,7 +95,7 @@ main {
 .box {
     padding: 15px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     height: 500px;
     width: 30%;
     background-color: var(--secondaryColor);
@@ -119,8 +119,6 @@ main {
 
 .box p {
     color: var(--bgprimary);
-    display: flex;
-    justify-content: space-around;
     padding-bottom: 20px;
     gap: 20px;
 }
@@ -278,6 +276,7 @@ main button:hover {
     .retro {
         width: 100%;
         flex-direction: column;
+
         justify-content: flex-start;
         gap: none;
         padding: 20px;
