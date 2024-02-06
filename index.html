@@ -31,10 +31,15 @@
             <li><a href="#">New</a></li>
             <li><a href="#">Popular</a></li>
             <li><a href="#">Trending</a></li>
-            <li><a href="#">Categories</a></li>
-        </ul>
+            <li class="dropdown" onmouseover="dropShow()" onmouseleave="dropHide()"><a href="#">Categories</a>
+            <ul id="drop" class="drop-content">
+                <li><a href="#">Categories 1</a></li>
+                <li><a href="#">Categories 2</a></li>
+                <li><a href="#">Categories 3</a></li>
+              </ul></li>
         <button onclick="changeM()" class="mode"><img src="./media/moon.png" id="modeI" alt=""></button>
     </div>
+</ul>
     </nav>
     <main>
         <div class="next">

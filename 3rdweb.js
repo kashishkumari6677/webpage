@@ -9,6 +9,20 @@ function toggle(){
         Status="hide"
     }
 }
+ let drop=document.querySelector('#drop')
+ function dropShow(){
+    drop.classList.add("drop")
+}
+function dropHide(){
+    drop.classList.remove("drop")
+}
+
+
+
+
+
+
+
 let body=document.querySelector("body")
 let currMode="light"
 let modeI=document.querySelector('#modeI')
